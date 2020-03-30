@@ -3,7 +3,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "engines":{
+  "engines": {
     "node": "12.14.1",
     "npm": "6.13.4"
   },
@@ -12,6 +12,7 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "postcss-cli": "^7.1.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1"
@@ -44,7 +45,6 @@
   "devDependencies": {
     "autoprefixer": "^9.7.4",
     "gh-pages": "^2.2.0",
-    "postcss-cli": "^7.1.0",
     "tailwindcss": "^1.2.0"
   }
 }
