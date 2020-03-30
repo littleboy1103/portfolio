@@ -19,14 +19,10 @@
     "tailwindcss": "^1.2.0"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "start": "npm run watch:css && react-scripts start",
-    "build": "npm run build:css && react-scripts build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "watch:css": "postcss src/css/tail.css -o src/css/main.css -W",
-    "build:css": "postcss src/css/tail.css -o src/css/main.css"
   },
   "eslintConfig": {
     "extends": "react-app"
